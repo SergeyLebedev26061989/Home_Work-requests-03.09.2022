@@ -8,7 +8,7 @@ class YaUploader:
         """Метод загружает файлы по списку file_list на яндекс диск"""
         # Тут ваша логика
         # Функция может ничего не возвращать
-        y = yadisk.YaDisk(token=input('введите свой токкен: '))
+        y = yadisk.YaDisk(token=token)
         y.upload("text.txt", "/text.txt")
 
 
