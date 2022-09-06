@@ -29,7 +29,6 @@ class YandexDisk:
             print("Success")
 #
 if __name__ == '__main__':
-    path_to_file = input('введите путь к загружаемому файлу: ')
     token = input('введите свой TOKEN: ')
     uploader = YandexDisk(token)
-    result = uploader.upload_file_to_disk('NetologyTEST/xls-file.xlsx', 'переделки июль.xlsx')
+    result = uploader.upload_file_to_disk('NetologyTEST/name.txt', 'курсач задание.txt')
